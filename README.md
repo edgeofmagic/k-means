@@ -30,12 +30,12 @@ used to represent vector components. These correspond (in reverse order) to the 
 For example, to define a 2-dimensional space with scalar elements of type `double`:
 
 ```` cpp
-	using km_type = utils::k_means<double, 2>;
+using km_type = utils::k_means<double, 2>;
 ````
 or, if you prefer:
 
 ```` cpp
-	typedef utils::k_means<double, 2> km_type;
+typedef utils::k_means<double, 2> km_type;
 ````
 
 This alias (or `typedef`) makes it easer to define instances of related types, using aliases
@@ -67,13 +67,13 @@ using k-means will use instances of euclidean_vector just as if they were instan
 can be constructed with initializer lists:
 
 ```` cpp
-	km_type::vector_type v{1.43, 0.95};
+km_type::vector_type v{1.43, 0.95};
 ````
 Individual components can be accessed or set with the subscript operator:
 
 ```` cpp
-	double x = v[0];
-	v[1] = x * x;
+double x = v[0];
+v[1] = x * x;
 ````
 
 #### Specialization for N=1
@@ -129,7 +129,7 @@ Given the previous definitions of `km_type`, and the population vector `input`, 
 the result set:
 
 ```` cpp
-	km_type km(input, 3);
+km_type km(input, 3);
 ````
 
 #### Determining a value for *k*
@@ -169,7 +169,7 @@ Note that `euclidean_vector` provides a stream output operator (`<<`),
 which prints the values in the vector enclosed in braces {}, separated by commas. The output 
 of this loop should look like this (the cluster order may vary):
 
-```` cpp
+```` 
 cluster 0 - centroid: { 1.1, 0.9 }, sigma: 0.141421, members:
 population[2] : { 1, 1 }
 population[3] : { 1.2, 0.8 }
@@ -201,7 +201,7 @@ for (auto i = 0; i < result_vec.size(); ++i)
 
 The output of this loop should look like this (again, cluster indices/order may vary):
 
-```` cpp
+```` 
 input element 0 { 0, 0 } is a member of cluster 2
 input element 1 { 0.2, -0.1 } is a member of cluster 2
 input element 2 { 1, 1 } is a member of cluster 0
