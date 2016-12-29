@@ -4,7 +4,7 @@
 
 ## Overview and notes on use
 
-This collection of templates implements <i>k</i>-means clustering, employing the following strategy:
+This collection of templates implements _k_-means clustering, employing the following strategy:
 
 1. Pick a population member at random, assign its value as the centroid of cluster 0.
 2. For clusters 1 through k-1: select the member of the population that is *farthest* from all
