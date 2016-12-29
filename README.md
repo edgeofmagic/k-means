@@ -1,4 +1,5 @@
 # k-means
+
 ## A simple C++ implementation of k-means clustering
 
 ## Overview and notes on use
@@ -6,6 +7,7 @@
 This collection of templates implements <i>k</i>-means clustering. 
 
 This implementation of k-means employs the following strategy:
+
 1. Pick a population member at random, assign its value as the centroid of cluster 0.
 2. For clusters 1 through k-1: select the member of the population that is *farthest* from all
 clusters whose centroids have already been assigned (where farthest is the maximum of the sum of
