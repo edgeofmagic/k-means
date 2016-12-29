@@ -1,6 +1,6 @@
 # k-means
 
-## A simple C++ implementation of k-means clustering
+## A simple C++ implementation of _k_-means clustering
 
 ## Overview and notes on use
 
