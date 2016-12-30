@@ -1,0 +1,25 @@
+\form#0:$ \mathbf{v} $
+\form#1:$ \mathbf{ v } = [ \mathit{v_1} \hspace{3mm} \mathit{v_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}} \hspace{3mm} \mathit{v_N} ] $
+\form#2:$ \mathbf{x} $
+\form#3:$ \mathbf{ x } = [ \mathit{x_1} \hspace{3mm} \mathit{x_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{x_{N-1}} \hspace{3mm} \mathit{x_N} ] $
+\form#4:$ \mathbf{ v' } = [ \mathit{v_1-x_1} \hspace{3mm} \mathit{v_2-x_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}-x_{N-1}} \hspace{3mm} \mathit{v_N-x_N} ] $
+\form#5:$ \mathbf{ v' } = [ \mathit{v_1+x_1} \hspace{3mm} \mathit{v_2+x_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}+x_{N-1}} \hspace{3mm} \mathit{v_N+x_N} ] $
+\form#6:$ \mathbf{ v' } = [ \mathit{v_1*x} \hspace{3mm} \mathit{v_2*x} \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}*x} \hspace{3mm} \mathit{v_N*x} ] $
+\form#7:$ \mathbf{ v' } = [ \mathit{v_1/x} \hspace{3mm} \mathit{v_2/x} \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}/x} \hspace{3mm} \mathit{v_N/x} ] $
+\form#8:$ \mathbf{r} $
+\form#9:$ \mathbf{r} = [ \mathit{v_1-x_1} \hspace{3mm} \mathit{v_2-x_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}-x_{N-1}} \hspace{3mm} \mathit{v_N-x_N} ] $
+\form#10:$ \mathbf{r} = [ \mathit{v_1+x_1} \hspace{3mm} \mathit{v_2+x_2 } \hspace{3mm} \cdots \hspace{3mm} \mathit{v_{N-1}+x_{N-1}} \hspace{3mm} \mathit{v_N+x_N} ] $
+\form#11:$ \mathbf{c} $
+\form#12:\[ \mathbf{ c } = \frac{1}{n} \sum\limits_{\mathbf{x} \in C} \mathbf{x} \]
+\form#13:\[ c = \frac{1}{n} \sum\limits_{x \in C} x \]
+\form#14:$ \mathbf{ c } $
+\form#15:$ \sigma $
+\form#16:\[ \mathbf{ \sigma } = \sqrt{ \frac{1}{n} \sum\limits_{\mathbf{x} \in C} \|\mathbf{x} - \mathbf{ c }\|^2 } \]
+\form#17:\[ \mathbf{ \sigma } = \sqrt{ \frac{1}{n} \sum\limits_{x \in C} (x - c)^2 } \]
+\form#18:\[ SSE = \sum\limits_{\mathbf{x} \in C} \|\mathbf{x} - \mathbf{ c }\|^2 \]
+\form#19:\[ SSE = \sum\limits_{x \in C} (x - c)^2 \]
+\form#20:$ \sigma^2 $
+\form#21:\[ \mathbf{ \sigma }^2 = \frac{1}{n} \sum\limits_{\mathbf{x} \in C} \|\mathbf{x} - \mathbf{ c }\|^2 \]
+\form#22:\[ \mathbf{ \sigma }^2 = \frac{1}{n} \sum\limits_{x \in C} (x - c)^2 \]
+\form#23:$ \mathbf{ c_1 } .. \mathbf{ c_k } $
+\form#24:\[ SSE_{pop} = \sum\limits_{j=1}^{k} \sum\limits_{\mathbf{x} \in C_j} \|\mathbf{x} - \mathbf{ c_j }\|^2 \]
